@@ -17,3 +17,103 @@ html { box-sizing: border-box; }
 body {
     background-color: #bdc3c7;
 }
+
+.profil {
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: #31363b;
+    font-family: Source Sans Pro, sans-serif;
+    color: #bdc3c7;
+    text-align: left;
+    box-shadow: 2px 4px 10px black;
+}
+
+.foto {
+    width: 250px;
+    height: auto;
+    padding: 0;
+}
+
+.logo {
+    background-color: #b92e81;
+    border-radius: 50%;
+    position: absolute;
+    top: 180px;
+    left: 205px;
+    box-shadow: 2px 2px 8px black;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.jmeno {
+    font-family: Montserrat, sans-serif;
+    color: white;
+}
+
+.obsah {
+    font-size: 14px;
+    color: #bdc3c7;
+    padding: 10px 20px 20px 20px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    font-family: Monserrat, sans-serif;
+    font-weight: bold;
+    color: #bdc3c7;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    padding: 15px;
+    border-spacing: 0;
+}
+
+.portfolio {
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    border-top: 1px #3f464d solid;
+    padding: 0;
+    padding-top: 10px;
+}
+
+.portfolio:hover {
+    background-color: #e74c3c;
+}
+
+.facebook {
+    width: 125px;
+    height: 40px;
+    text-align: center;
+    border-top: 1px #3f464d solid;
+    padding: 0;
+    padding-top: 10px;
+}
+
+.facebook:hover {
+    background-color: #3b5998;
+}
+
+.twitter {
+    width: 125px;
+    height: 40px;
+    text-align: center;
+    border-top: 1px #3f464d solid;
+    border-left: 1px #3f464d solid;
+    padding: 0;
+    padding-top: 10px;
+}
+
+.twitter:hover {
+    background-color: #1da1f2;
+}
